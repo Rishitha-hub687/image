@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <div class="slides">
+    <img src="https://images.pexels.com/photos/340874/pexels-photo-340874.jpeg" class="slide" alt="Nature Landscape" height="40vh">
+    <img src="https://images.pexels.com/photos/340874/pexels-photo-340874.jpeg" class="slide" alt="City Skyline" height="40vh">
+    <img src="https://images.pexels.com/photos/340874/pexels-photo-340874.jpeg" class="slide" alt="Technology Workspace " height="40vh">
+  </div>
+  <button class="prev" onclick="prevSlide()">❮</button>
+  <button class="next" onclick="nextSlide()">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
